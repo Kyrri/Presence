@@ -3,7 +3,12 @@ using System.Collections;
 
 public class ShadowCreature : MonoBehaviour {
     public float health = 100;
+    private PointCount pointcount;
 	// Use this for initialization
+    public void Start()
+    {
+        pointcount = GameObject.Find("Player").GetComponent <PointCount> ();
+    }
     public void takeHealth()
     {
         health -= 10f;
@@ -16,6 +21,7 @@ public class ShadowCreature : MonoBehaviour {
     {
         //stop moving + dying animation
         Destroy(gameObject);
+        pointcount.addPoint();
 
     }
 }

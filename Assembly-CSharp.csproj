@@ -92,6 +92,7 @@
      <Compile Include="Assets\Scripts\MainMenu\LoadIt.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerLife.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PointCount.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\ShadowCreature.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\destroyShadow.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\flashlight.cs" />
