@@ -11,7 +11,7 @@ public class shadowMove : MonoBehaviour {
 
     void Start()
     {
-        speed = 7.0f + (Time.time / 30);
+        speed = 13.0f + (Time.time / 30);
         player = GameObject.Find("Player/MainCamera");
         moveType = Random.Range(0, 3);
         life = player.GetComponent<PlayerLife>();
